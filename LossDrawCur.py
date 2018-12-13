@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 
 
 def main():
-    lossfilePath=os.getcwd()+'/res/1206'
-    outfilePath=os.getcwd()+'/res/1206.jpg'
+    lossfilePath=os.getcwd()+'/res/1212'
+    outfilePath=os.getcwd()+'/res/1212.jpg'
 
     CurDisNum=1000
 

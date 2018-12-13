@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 
 
 def main():
-    lossfilePath=os.getcwd()+'/res/1123'
-    outfilePath=os.getcwd()+'/res/1123.jpg'
+    lossfilePath=os.getcwd()+'/res/1212'
+    outfilePath=os.getcwd()+'/res/1212.jpg'
 
     itrNumList=[]
     lossList = []
@@ -34,13 +34,15 @@ def main():
             #loss.append((itrNum,lossVal))
             if itrNum>0 and itrNum%5000==0:
                 aLine=file.readline()
+
         else:
             done=1
 
     file.close()
 
     plt.figure()
-    plt.plot(itrNumList,lossList)
+#   plt.plot(itrNumList,lossList)
+    plt.plot(lossList)
     plt.xlabel('iteration number')
     plt.ylabel('loss value')
     plt.title('loss curver')

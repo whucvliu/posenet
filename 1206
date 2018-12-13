@@ -1,0 +1,4 @@
+load previous training weight file:/media/john/磁盘阵列1/flownet2_data/PoseNetData/posenet_weight/KingsCollege/
+12-06 20:38:38	iteration: 0
+	Loss is: 29.23616
+Intermediate file saved at: /media/john/磁盘阵列1/flownet2_data/PoseNetData/posenet_weight/KingsCollege/181206/PoseNet_0.ckpt
